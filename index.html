@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kukui Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaQueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Kukui</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">Kukui</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#project" onclick="toggleMenu()">Project</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/pro1.png" alt="kukui profile pic">
+        </div>
+
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <p class="title">Kukui</p>
+            <p class="section__text__p2">Frontend Developer</p>
+            <div class="btn-container">
+                <button class="btn-color-2" onclick="window.open('./assets/resume-example.pdf')">
+                    Download CV</button>
+                    
+                <button class="btn-color-1" onclick="location.href='./#contact'">
+                    Contact Info</button> 
+                            
+            </div>
+
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="linkedin profile" 
+                class="icon" onclick="location.href='https://linkedin.com/proflie/'">
+                
+                <img src="./assets/github.png" alt="github profile" 
+                class="icon" onclick="location.href='https://github.com/proflie/'">
+            </div>
+           
+        </div>
+    </section>
+
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/flat-creativity-concept-illustration_52683-64279.jpg" 
+                alt="about pic" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="experience icon" class="icon">
+
+                        <h3>Experience</h3>
+                        <p>2+ years <br>Front-End Development</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="experience icon" class="icon">
+
+                        <h3>Education</h3>
+                        <p>Bachelors Of Science Degree <br>Information Technology</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>"Hello, I'm Kukui, a passionate graphic designer, front-end developer, and UI/UX designer. With a strong background in visual communication and web development, I bring a unique blend of creativity and technical expertise to my work.
+                        As a graphic designer, I have honed my skills in creating visually appealing designs that effectively convey messages and capture attention. I have experience in designing various marketing materials, such as logos, brochures, and social media graphics, ensuring that each design aligns with the client's brand identity.
+                         I am also a proficient front-end developer. I have a solid understanding of HTML, CSS, and JavaScript.
+                        Moreover, my expertise extends to UI/UX design, where I focus on creating intuitive and seamless user experiences."
+                         </p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Front-End Development</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+    
+                        <div>
+                            <h3>HTML</h3>
+                            <p>Experience</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+    
+                        <div>
+                            <h3>CSS</h3>
+                            <p>Experience</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+    
+                        <div>
+                            <h3>Javascript</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+    
+                        <div>
+                            <h3>SASS</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+    
+                        <div>
+                            <h3>Graphic Design</h3>
+                            <p>Experience</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+    
+                        <div>
+                            <h3>Material UI</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                </div>
+                
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Back-End Development</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+    
+                        <div>
+                            <h3>MSQL</h3>
+                            <p>Experience</p>
+                        </div>
+                    </article>
+                    
+                    <article>
+                        <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+    
+                        <div>
+                            <h3>Node JS</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+    
+                        <div>
+                            <h3>Kotlin</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+    
+                        <div>
+                            <h3>Git</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    
+                </div>
+                
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="arrow icon"
+         class="icon arrow" 
+         onclick="location.href='./#project'">
+        
+    </section>
+
+    <section id="project">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+           <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./assets/project-1.png" 
+                alt="project 1" 
+                class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <div class="btn-container">
+               <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">GitHub</button> 
+               <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Live Demo</button> 
+            </div>
+           </div> 
+           <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./assets/project-2.png" 
+                alt="project 2" 
+                class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <div class="btn-container">
+               <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">GitHub</button> 
+               <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Live Demo</button> 
+            </div>
+           </div> 
+           <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./assets/project-3.png" 
+                alt="project 3" 
+                class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <div class="btn-container">
+               <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">GitHub</button> 
+               <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Live Demo</button> 
+            </div>
+           </div> 
+        </div>
+        </div>
+        <img src="./assets/arrow.png" alt="arrow icon"
+         class="icon arrow" 
+         onclick="location.href='./#contact'">
+    </section>
+
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" 
+                alt="email icon"
+                class="icon contact-icon email-icon">
+
+                <p><a href="sailto:brahwix@gmail.com">brahwix@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" 
+                alt="linkedin icon"
+                class="icon contact-icon">
+
+                <p><a href="https://www.linkedin.com/">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; Kukui 2023 - All Rights Reserved</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
